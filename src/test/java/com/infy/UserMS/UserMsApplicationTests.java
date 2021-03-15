@@ -24,7 +24,7 @@ import com.infy.UserMS.service.BuyerService;
 import com.infy.UserMS.service.SellerService;
 @RunWith(MockitoJUnitRunner.class)
 @SpringBootTest
-class UserMsApplicationTests {
+public class UserMsApplicationTests {
 	@Mock
 	BuyerRepository buyerRepo;
 	@Mock
